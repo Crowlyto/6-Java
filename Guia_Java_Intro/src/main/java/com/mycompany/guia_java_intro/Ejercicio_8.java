@@ -22,7 +22,7 @@ public class Ejercicio_8 {
         String frase;
         Scanner leer=new Scanner(System.in);
         System.out.println("Ingrese una frase de 8 caracteres de largo");
-        frase=leer.next();
+        frase=leer.nextLine();
         if (frase.length()==8){
             System.out.println("CORRECTO");
         }else
